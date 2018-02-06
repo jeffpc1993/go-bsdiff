@@ -4,7 +4,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/icedream/go-bsdiff/internal/native"
+	"github.com/jeffpc1993/go-bsdiff/internal/native"
 )
 
 /*

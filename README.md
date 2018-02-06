@@ -9,11 +9,11 @@ would need to be done otherwise.
 
 The library and the helper binaries `go-bsdiff` and `go-bspatch` can be installed like this:
 
-    go get -v github.com/icedream/go-bsdiff/...
+    go get -v github.com/jeffpc1993/go-bsdiff/...
 
 ## Usage in application code
 
-For exact documentation of the library check out [GoDoc](https://godoc.org/github.com/icedream/go-bsdiff).
+For exact documentation of the library check out [GoDoc](https://godoc.org/github.com/jeffpc1993/go-bsdiff).
 
 Library functionality is provided both as a package `bsdiff` containing both
 methods `Diff` and `Patch`, or as subpackages `diff` and `patch` which each
@@ -27,10 +27,10 @@ package main
 
 import (
     "os"
-    "github.com/icedream/go-bsdiff"
+    "github.com/jeffpc1993/go-bsdiff"
     // Or use the subpackages to only link what you need:
-    //"github.com/icedream/go-bsdiff/diff"
-    //"github.com/icedream/go-bsdiff/patch"
+    //"github.com/jeffpc1993/go-bsdiff/diff"
+    //"github.com/jeffpc1993/go-bsdiff/patch"
 )
 
 const (
